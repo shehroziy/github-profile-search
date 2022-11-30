@@ -10,7 +10,7 @@ const getUser = async (username) => {
     // console.log(resData)
     createUser(resData)
 }
-getUser("shehroz")
+getUser("rshehroz1")
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
