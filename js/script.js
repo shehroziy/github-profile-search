@@ -1,4 +1,4 @@
-const API_URL = "https://api.github.com/";
+const API_URL = "https://api.github.com/users/";
 
 const form = document.getElementById("form");
 const search = document.getElementById("search");
@@ -7,7 +7,6 @@ const main = document.getElementById("result");
 const getUser = async (username) => {
     const res = await fetch(API_URL + username);
     const resData = await res.json();
-    // console.log(resData)
     createUser(resData)
 }
 getUser("rshehroz1")
