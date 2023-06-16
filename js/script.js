@@ -9,7 +9,7 @@ const getUser = async (username) => {
     const resData = await res.json();
     createUser(resData)
 }
-getUser("@shehroziy")
+getUser("blackxok")
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
